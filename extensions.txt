@@ -1,6 +1,7 @@
 All Extensions i use in my vs code
 
-Extensions>>>>>
+Extensions Lists
+----------------------------
 Tailwind CSS IntelliSense
 Auto close tag
 Auto rename tag
@@ -20,7 +21,8 @@ Thunder Client
 Turbo Console Log
 
 
-theme>>>>>
+theme Lists
+----------------------------
 Shades of Purple
 Learn with Sumit Theme
 Dracula Theme Official
