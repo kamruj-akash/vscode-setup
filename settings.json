@@ -1,4 +1,5 @@
 {
+  // 🎨 Theme Customization
   "workbench.colorCustomizations": {
     "[Learn with Sumit - Professional]": {
       "toolbar.activeBackground": "#80CBC426",
@@ -8,13 +9,13 @@
     },
     // Terminal Theme Customization
     "terminal.background": "#131a19",
-    "terminal.foreground": "#9ba9e3"
+    "terminal.foreground": "#9ba9e3",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font"
     // ... (other terminal colors)
   },
 
   // ⚙️ General Editor & Explorer Settings
   "workbench.editor.empty.hint": "hidden",
-  "liveServer.settings.CustomBrowser": "chrome",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "files.autoSave": "afterDelay",
@@ -24,13 +25,13 @@
   // 🔐 Security Settings
   "security.workspace.trust.untrustedFiles": "open",
 
-  // ✍️ Editor Appearance
+  // ✍️ Editor Appearance =>
   "editor.fontSize": 18,
   "editor.lineHeight": 28,
   "editor.wordWrap": "on",
-  "editor.minimap.enabled": false,
   "editor.smoothScrolling": true,
-  "editor.fontFamily": "SF Operator Mono",
+  "editor.fontFamily": "AkashCode",
+
   "editor.fontLigatures": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -60,13 +61,25 @@
   "editor.semanticHighlighting.enabled": true,
   "editor.bracketPairColorization.enabled": true,
 
+  // 💡 Suggestion Priority (snippet age, AI ghost text pore)
+  // snippet gulo suggestion list-er sobar upore boshbe (clg, clog etc.)
+  "editor.snippetSuggestions": "top",
+  // list-er prothom item-i select thakbe — "recently used" onno kichu upore tulbe na
+  "editor.suggestSelection": "first",
+  // kachhakachhi declare kora variable-ke extra weight deya bondho
+  "editor.suggest.localityBonus": false,
+  // Tab chaple snippet expand hobe
+  "editor.tabCompletion": "on",
+  // ghost text thakleo suggest widget luka jabe na — dutoi dekhabe
+  "editor.inlineSuggest.enabled": true,
+  "editor.inlineSuggest.suppressSuggestions": false,
+  "editor.acceptSuggestionOnEnter": "on",
+
   // 🖱️ Cursor Customization
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
 
-  // ===================================================================
   // 🧑‍💻 Code Formatting & Linting (ESLint + Prettier)
-  // ===================================================================
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
 
@@ -82,9 +95,6 @@
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "explicit"
   },
-  "eslint.alwaysShowStatus": true,
-  // ===================================================================
-
   // 🔲 Terminal Font Size & Line Height
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.lineHeight": 1.3,
@@ -97,93 +107,19 @@
   "workbench.startupEditor": "none",
   "git.openRepositoryInParentFolders": "never",
   "terminal.integrated.env.osx": {},
-  "console-ninja.featureSet": "Community",
   "workbench.externalBrowser": "chrome",
-  "code-doctor.apiKey": "AIzaSyBN-T49zIJI9BrMDlU0PWdQnrCzIrS8in8",
-  "smart-refactor-ai.apiKey": "AIzaSyBN-T49zIJI9BrMDlU0PWdQnrCzIrS8in8",
-  "liveServer.settings.donotShowInfoMsg": true,
   "workbench.sideBar.location": "right",
   "workbench.activityBar.iconClickBehavior": "focus",
-  "liveServer.settings.donotVerifyTags": true,
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
-  },
 
-  // ===================================================================
   // 🎥 Screencast Mode Customization
-  // ===================================================================
-  "screencastMode.onlyKeyboardShortcuts": true,
-  "screencastMode.fontSize": 26,
-  "screencastMode.verticalOffset": 5,
-  "screencastMode.keyboardOptions.showKeys": true,
-  "screencastMode.keyboardOptions.showCommandNames": true,
-  "screencastMode.keyboardOptions.mouseIndicatorColor": "#FF4081",
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "peacock.favoriteColors": [
-    {
-      "name": "Angular Red",
-      "value": "#dd0531"
-    },
-    {
-      "name": "Azure Blue",
-      "value": "#007fff"
-    },
-    {
-      "name": "JavaScript Yellow",
-      "value": "#f9e64f"
-    },
-    {
-      "name": "Mandalorian Blue",
-      "value": "#1857a4"
-    },
-    {
-      "name": "Node Green",
-      "value": "#215732"
-    },
-    {
-      "name": "React Blue",
-      "value": "#61dafb"
-    },
-    {
-      "name": "Something Different",
-      "value": "#832561"
-    },
-    {
-      "name": "Svelte Orange",
-      "value": "#ff3d00"
-    },
-    {
-      "name": "Vue Green",
-      "value": "#42b883"
-    },
-    {
-      "name": "Server",
-      "value": "#2E6075"
-    },
-    {
-      "name": "Client-color",
-      "value": "#0F828C"
-    },
-    {
-      "name": "Client-bar-color",
-      "value": "#3E3F5B"
-    },
-    {
-      "name": "server-bar-color",
-      "value": "#8C1007"
-    },
-    {
-      "name": "Server-green",
-      "value": "#05403f"
-    }
-  ],
   "chat.instructionsFilesLocations": {
     ".github/instructions": true,
+    ".claude/rules": true,
+    "~/.copilot/instructions": true,
+    "~/.claude/rules": true,
     "/var/folders/kb/th4cqwvd2nb473n0mnz5r7qm0000gn/T/postman-collections-post-response.instructions.md": true,
     "/var/folders/kb/th4cqwvd2nb473n0mnz5r7qm0000gn/T/postman-collections-pre-request.instructions.md": true,
     "/var/folders/kb/th4cqwvd2nb473n0mnz5r7qm0000gn/T/postman-folder-post-response.instructions.md": true,
@@ -194,26 +130,68 @@
   "cSpell.userWords": [
     "akas",
     "akash",
+    "Bangla",
+    "Commerz",
+    "cuid",
     "farzana",
+    "folbon",
     "formatjs",
+    "IELTS",
+    "isactive",
     "Kamruj",
     "kamruzzaman",
     "localematcher",
     "mithila",
+    "moneymate",
+    "neondatabase",
+    "neondb",
     "oni",
+    "Pressable",
+    "sslmode",
+    "summarised",
+    "SUPABASE",
     "Swal",
-    "sweetalert"
+    "sweetalert",
+    "Topbar"
   ],
   "files.autoSaveDelay": 2000,
-  "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
+  // "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorWidth": 2,
   "timeline.pageSize": 40,
   "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
-  "workbench.iconTheme": "vscode-icons",
-  "viraTheme.accent": "Teal",
-  "codeium.enableCodeLens": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "vsicons.dontShowNewVersionMessage": true
+  // "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "http.systemCertificatesNode": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
+  "diffEditor.codeLens": true,
+  "workbench.productIconTheme": "icons-octicons",
+  "explorer.confirmPasteNative": false,
+  "editor.minimap.size": "fill",
+  "editor.minimap.enabled": false,
+  "editor.unicodeHighlight.allowedLocales": {
+    "cs": true
+  },
+  "workbench.activityBar.location": "top",
+  // "typescript.experimental.useTsgo": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontFamily": "monospace",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "prisma": false,
+    "typescript": true,
+    "typescriptreact": true
+  },
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "claudeCode.preferredLocation": "panel",
+  "continue.enableNextEdit": false,
+  "chat.disableAIFeatures": true,
+  "continue.enableTabAutocomplete": false
 }
