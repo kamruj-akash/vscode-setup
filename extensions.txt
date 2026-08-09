@@ -1,7 +1,7 @@
 All Extensions i use in my vs code
 
 Extensions Lists
-----------------------------
+---------------------------
 Tailwind CSS IntelliSense
 Auto close tag
 Auto rename tag
@@ -22,7 +22,7 @@ Turbo Console Log
 
 
 theme Lists
-----------------------------
+---------------------------
 Shades of Purple
 Learn with Sumit Theme
 Dracula Theme Official
