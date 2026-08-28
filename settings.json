@@ -4,13 +4,13 @@
     "[Learn with Sumit - Professional]": {
       "toolbar.activeBackground": "#80CBC426",
       "activityBarBadge.background": "#80CBC4",
-      "activityBar.activeBorder": "#80CBC4"
+      "activityBar.activeBorder": "#80CBC4",
       // ... (other UI colors)
     },
     // Terminal Theme Customization
     "terminal.background": "#131a19",
     "terminal.foreground": "#9ba9e3",
-    "terminal.integrated.fontFamily": "FiraCode Nerd Font"
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
     // ... (other terminal colors)
   },
 
@@ -42,19 +42,19 @@
           "support.type",
           "support.class",
           "entity.name.class",
-          "entity.other.inherited-class"
+          "entity.other.inherited-class",
         ],
         "settings": {
-          "fontStyle": ""
-        }
+          "fontStyle": "",
+        },
       },
       {
         "scope": ["comment", "punctuation.definition.comment"],
         "settings": {
-          "fontStyle": "italic"
-        }
-      }
-    ]
+          "fontStyle": "italic",
+        },
+      },
+    ],
   },
 
   // 🧠 Better visuals
@@ -88,12 +88,12 @@
     "javascript",
     "javascriptreact",
     "typescript",
-    "typescriptreact"
+    "typescriptreact",
   ],
 
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "explicit"
+    "source.organizeImports": "explicit",
   },
   // 🔲 Terminal Font Size & Line Height
   "terminal.integrated.fontSize": 16,
@@ -102,7 +102,7 @@
   // 🧭 Sidebar Config
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "[snippets]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "vscode.json-language-features",
   },
   "workbench.startupEditor": "none",
   "git.openRepositoryInParentFolders": "never",
@@ -125,12 +125,14 @@
     "/var/folders/kb/th4cqwvd2nb473n0mnz5r7qm0000gn/T/postman-folder-post-response.instructions.md": true,
     "/var/folders/kb/th4cqwvd2nb473n0mnz5r7qm0000gn/T/postman-folder-pre-request.instructions.md": true,
     "/var/folders/kb/th4cqwvd2nb473n0mnz5r7qm0000gn/T/postman-http-request-post-response.instructions.md": true,
-    "/var/folders/kb/th4cqwvd2nb473n0mnz5r7qm0000gn/T/postman-http-request-pre-request.instructions.md": true
+    "/var/folders/kb/th4cqwvd2nb473n0mnz5r7qm0000gn/T/postman-http-request-pre-request.instructions.md": true,
   },
   "cSpell.userWords": [
     "akas",
     "akash",
     "Bangla",
+    "bkash",
+    "bunx",
     "Commerz",
     "cuid",
     "farzana",
@@ -171,16 +173,15 @@
   "workbench.productIconTheme": "icons-octicons",
   "explorer.confirmPasteNative": false,
   "editor.minimap.size": "fill",
-  "editor.minimap.enabled": false,
   "editor.unicodeHighlight.allowedLocales": {
-    "cs": true
+    "cs": true,
   },
   "workbench.activityBar.location": "top",
   // "typescript.experimental.useTsgo": true,
   "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.fontFamily": "monospace",
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "plaintext": false,
     "markdown": false,
     "scminput": false,
@@ -192,6 +193,27 @@
   "github.copilot.nextEditSuggestions.enabled": true,
   "claudeCode.preferredLocation": "panel",
   "continue.enableNextEdit": false,
-  "chat.disableAIFeatures": true,
-  "continue.enableTabAutocomplete": false
+  "continue.enableTabAutocomplete": false,
+  "js/ts.experimental.useTsgo": true,
+
+  // biome json
+  // "editor.defaultFormatter": "biomejs.biome",
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "json.schemaDownload.trustedDomains": {
+    "https://biomejs.dev": true,
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://json-schema.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://schemastore.azurewebsites.net/": true,
+    "https://www.schemastore.org/": true
+  },
+  "editor.minimap.enabled": false,
+  "chat.sessionSync.enabled": true
 }
