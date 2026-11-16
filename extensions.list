@@ -1,0 +1,42 @@
+# One VS Code extension ID per line. Lines starting with # are ignored.
+# --- My extensions ---
+kamruj-akash.akashic
+kamruj-akash.pro-code-cleaner
+kamruj-akash.code-doctor
+kamruj-akash.smart-refactor-ai
+kamruj-akash.awesome-dev-pack
+# --- Essentials ---
+bradlc.vscode-tailwindcss
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+streetsidesoftware.code-spell-checker
+adpyke.codesnap
+naumovs.color-highlight
+dsznajder.es7-react-js-snippets
+dbaeumer.vscode-eslint
+steoates.autoimport
+ambar.bundle-size
+yongzeyao.dom-code-snippets
+mikestead.dotenv
+GitHub.vscode-github-actions
+GitHub.copilot
+GitHub.copilot-chat
+bradgashler.htmltagwrap
+xabikos.JavaScriptSnippets
+ritwickdey.LiveServer
+christian-kohler.npm-intellisense
+ionutvmi.path-autocomplete
+christian-kohler.path-intellisense
+esbenp.prettier-vscode
+WallabyJs.quokka-vscode
+xabikos.ReactSnippets
+rangav.vscode-thunder-client
+ChakrounAnas.turbo-console-log
+vscode-icons-team.vscode-icons
+biomejs.biome
+anthropic.claude-code
+# --- Themes / icons ---
+ahmadawais.shades-of-purple
+dracula-theme.theme-dracula
+PKief.material-icon-theme
+EliverLara.andromeda

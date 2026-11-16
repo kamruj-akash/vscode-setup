@@ -241,15 +241,26 @@
 
 ## 📦 Installation
 
-### 🎯 Quick Setup
+### 🎯 Quick Setup (one command, macOS)
+
+On a fresh Mac, paste this in Terminal:
 
 ```bash
-# Clone this repository
-git clone https://github.com/kamruj-akash/vscode-setup.git
-
-# Navigate to the directory
-cd vscode-setup
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/kamruj-akash/vscode-setup/main/setup.sh)"
 ```
+
+It installs Homebrew, Oh My Zsh, zsh plugins, NVM + Node LTS, Bun, VS Code, Claude Code and the Fira Code Nerd Font, then applies `zshrc`, `settings.json`, snippets and every extension in `extensions.list`. Existing files are backed up (`*.backup-<timestamp>`), and it is safe to re-run.
+
+Or from a clone:
+
+```bash
+git clone https://github.com/kamruj-akash/vscode-setup.git
+cd vscode-setup && ./setup.sh
+```
+
+> 💡 If `brew` says `command not found` on an Apple Silicon Mac, the new `zshrc` fixes it by loading `brew shellenv` first.
+
+The sections below describe the manual steps if you prefer to do it by hand.
 
 ### 1️⃣ Settings Configuration
 
